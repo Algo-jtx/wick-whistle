@@ -29,6 +29,7 @@ function SignUpPage({ setIsSignedUp }) {
         text: 'Please fill in all fields!',
         icon: 'error',
         confirmButtonText: 'Retry',
+        
       });
     }
   };
