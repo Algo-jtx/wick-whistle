@@ -10,8 +10,8 @@ function SearchBar ({ searchTerm, setSearchTerm }) {
         onChange={(e) => setSearchTerm(e.target.value)}
         className = "search-input"
       />
-      
-     </div>
+      </div>
+
   );
 }
 export default SearchBar;
