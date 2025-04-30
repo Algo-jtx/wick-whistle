@@ -7,10 +7,10 @@ function SearchBar ({ searchTerm, setSearchTerm }) {
         type="text"
         placeholder="Search for delicious meals"
         value={searchTerm}
-//         onChange={(e) => setSearchTerm(e.target.value)}
-//         className = "search-input"
-//       />
-//       {/* <button className="search-button">search</button> */}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        className = "search-input"
+      />
+{/* //       <button className="search-button">search</button> */}
 
 //     </div>
 //   );
