@@ -1,8 +1,8 @@
 import React from 'react';
 
-function SearchBar ({ searchTerm, setSearchTerm }) 
-//   return (
-//     <div className="search-bar">
+function SearchBar ({ searchTerm, setSearchTerm }) {
+  return (
+    <div className="search-bar">
 //       <input
 //         type="text"
 //         placeholder="Search for delicious meals"
