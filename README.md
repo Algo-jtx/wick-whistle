@@ -55,13 +55,13 @@ Built with ❤️ by *The Null Pointers* — Juanita, Anthony, Melvin, Ian, and 
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Dennishub001/wick-and-whistle-pantry.git
+    git clone https://github.com/Algo-jtx/wick-whistle.git
     ```
 
     *   If you prefer to clone via SSH, you can use the following, replacing the provided URL with the SSH URL from your GitHub repo (in the "Code" button)*
 
         ```bash
-        git clone git@github.com:Dennishub001/wick-and-whistle-pantry.git
+        git clone git@githttps://github.com/Algo-jtx/wick-whistle.git
         ```
 
 2.  **Navigate into the project folder:**
@@ -121,8 +121,8 @@ Built with ❤️ by *The Null Pointers* — Juanita, Anthony, Melvin, Ian, and 
 1.  **Fork the repository:**  On the GitHub repository page, click the "Fork" button to create your own copy of the project in your GitHub account.
 2.  **Clone your fork:**
     ```bash
-    git clone <YOUR_FORK_URL>  # Replace <YOUR_FORK_URL> with the URL of your forked repository.  Usually this will be git@github.com:<YOUR_GITHUB_USERNAME>/wick-and-whistle-pantry.git
-    cd wick-and-whistle-pantry
+    git clone <YOUR_FORK_URL>  # Replace <YOUR_FORK_URL> with the URL of your forked repository.  Usually this will be git@github.com:<YOUR_GITHUB_USERNAME>/wick-and-whistle
+    cd wick-$-whistle
     ```
 3.  **Create a new branch:**
 
