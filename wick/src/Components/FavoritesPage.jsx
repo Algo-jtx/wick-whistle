@@ -1,7 +1,19 @@
 import React from 'react'
+import RecipeCard from './RecipeCard';
 
-function FavoritesPage({ recipes }) {
+function FavoritesPage({ recipes, onFavoriteToggle, isSignedUp }) {
   const favoriteRecipes = recipes
+  .filter(recipe => recipe.isFavorite)
+
+  if (!isSignedUp) {
+    return (
+      <div>
+        <h1>Recipe Favorites</h1>
+        <p>You need to sign up to view your favorite recipes!</p>
+      </div>
+    );
+  }
+
   return (
     <>
     <h1>Recipe Favorites</h1>
@@ -11,6 +23,8 @@ function FavoritesPage({ recipes }) {
           <RecipeCard 
           key={recipe.id} 
           recipe={recipe}
+          isSignedUp={isSignedUp}
+          onFavoriteToggle={onFavoriteToggle}
            />
         ))
       ) : (
