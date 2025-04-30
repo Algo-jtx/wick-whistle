@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import RecipeCard from "./Components/RecipeCard";
-import FavoritesPage from "./Components/FavouritesPage";
+import FavoritesPage from "./Components/FavoritesPage";
 import Navbar from "./Components/Navbar";
 import SignUpPage from "./Components/LoginForm";
 import SearchBar from "./Components/SearchBar";
@@ -83,3 +83,4 @@ function App() {
 }
 
 export default App;
+

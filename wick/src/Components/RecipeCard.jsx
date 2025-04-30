@@ -61,7 +61,7 @@ function RecipeCard({ recipe, onFavoriteToggle, isSignedUp }) {
         className="recipe-image"
       />
       <div className="recipe-info">
-        <Link to={/recipes/${id}}>
+        <Link to={`/recipes/${id}`}>
           <h3>{title}</h3>
         </Link>
         <p>By: {publisher}</p>
