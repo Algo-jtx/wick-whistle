@@ -9,7 +9,6 @@ body {
     align-items: center;
   }
   
-  
   .signup-container {
     background: #ffffff;
     padding: 40px 30px;
@@ -27,25 +26,27 @@ body {
     color: #333333;
     font-weight: 600;
     letter-spacing: 1px;
+    text-transform: uppercase; /* Added text-transform for emphasis */
   }
   
-  input.signup-form  {
+  input.signup-form {
     width: 100%;
     padding: 15px;
     margin: 12px 0;
-    border: none;
+    border: 1px solid #ddd; /* Added border to give inputs a subtle outline */
     border-radius: 12px;
     background-color: #f1f1f1;
     font-size: 16px;
     transition: all 0.3s ease;
   }
   
-  input.signup-form :focus {
+  input.signup-form:focus {
     background-color: #e0e0e0;
     outline: none;
+    border-color: #667eea; /* Added a border color on focus to enhance visibility */
   }
   
-  button.signup-form  {
+  button.signup-form {
     width: 100%;
     padding: 15px;
     margin-top: 20px;
@@ -66,7 +67,6 @@ body {
   
   @keyframes fadeIn {
     0% {
-        
       opacity: 0;
       transform: translateY(30px);
     }
@@ -75,3 +75,4 @@ body {
       transform: translateY(0);
     }
   }
+  
