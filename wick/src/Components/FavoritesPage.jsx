@@ -1,9 +1,11 @@
 import React from 'react'
 import RecipeCard from './RecipeCard';
+import SearchBar from "./SearchBar";
 
-function FavoritesPage({ recipes, onFavoriteToggle, isSignedUp }) {
+function FavoritesPage({ recipes, onFavoriteToggle, isSignedUp, searchTerm, setSearchTerm }) {
   const favoriteRecipes = recipes
   .filter(recipe => recipe.isFavorite)
+  .filter(recipe => recipe.title.toLowerCase().includes(searchTerm.toLowerCase()));
 
   if (!isSignedUp) {
     return (
@@ -17,6 +19,7 @@ function FavoritesPage({ recipes, onFavoriteToggle, isSignedUp }) {
   return (
     <>
     <h1>Recipe Favorites</h1>
+    <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
     <div className="recipe-container">        
       {favoriteRecipes.length > 0 ? (
         favoriteRecipes.map(recipe => (
