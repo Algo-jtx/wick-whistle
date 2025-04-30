@@ -13,6 +13,6 @@ function SearchBar ({ searchTerm, setSearchTerm }) {
 {/* //       <button className="search-button">search</button> */}
 
 //     </div>
-//   );
-// }
-// export default SearchBar;
+  );
+}
+export default SearchBar;
