@@ -4,6 +4,7 @@ function FavoritesPage({ recipes }) {
   const favoriteRecipes = recipes
   return (
     <>
+    <h1>Recipe Favorites</h1>
     <div className="recipe-container">        
       {favoriteRecipes.length > 0 ? (
         favoriteRecipes.map(recipe => (
